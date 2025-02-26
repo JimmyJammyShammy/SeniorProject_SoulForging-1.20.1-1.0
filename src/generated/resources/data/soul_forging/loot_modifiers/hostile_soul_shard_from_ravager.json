@@ -1,0 +1,14 @@
+{
+  "type": "soul_forging:add_item",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:entities/ravager"
+    },
+    {
+      "chance": 1.0,
+      "condition": "minecraft:random_chance"
+    }
+  ],
+  "item": "soul_forging:hostile_soul_shard"
+}

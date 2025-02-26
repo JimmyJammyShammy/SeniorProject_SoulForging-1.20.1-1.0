@@ -1,0 +1,111 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.unknown",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 9,
+				"visible_bounds_height": 5.5,
+				"visible_bounds_offset": [0, 2.25, 0]
+			},
+			"bones": [
+				{
+					"name": "ArcanisIronwing",
+					"pivot": [0, 41, -5]
+				},
+				{
+					"name": "Upper",
+					"parent": "ArcanisIronwing",
+					"pivot": [0, 17, 0],
+					"cubes": [
+						{"origin": [-8, 14, -3], "size": [16, 24, 6], "uv": [0, 36]}
+					]
+				},
+				{
+					"name": "Head",
+					"parent": "Upper",
+					"pivot": [0, 38, 0],
+					"cubes": [
+						{"origin": [-4, 38, -5], "size": [8, 8, 10], "uv": [44, 56]},
+						{"origin": [-2, 38, -11], "size": [4, 3, 6], "pivot": [0, 41, -5], "rotation": [15, 0, 0], "uv": [22, 85]}
+					]
+				},
+				{
+					"name": "L_Wing",
+					"parent": "Upper",
+					"pivot": [7.75, 38, 0],
+					"rotation": [0, 0, 60],
+					"cubes": [
+						{"origin": [9.34808, 35.76795, 2], "size": [44, 33, 0], "inflate": 2, "uv": [0, 0]},
+						{"origin": [6.34808, 35.76795, -2], "size": [22, 6, 4], "uv": [44, 46]}
+					]
+				},
+				{
+					"name": "R_Wing",
+					"parent": "Upper",
+					"pivot": [-8, 38, 0],
+					"rotation": [0, 0, -60],
+					"cubes": [
+						{"origin": [-14.37564, 41.40192, -2], "size": [22, 6, 4], "pivot": [-10.30385, 41.40192, 0], "rotation": [0, 0, -180], "uv": [44, 46]},
+						{"origin": [-39.37564, 33.40192, -2], "size": [44, 33, 0], "inflate": 2, "pivot": [-24.30385, 54.90192, -2], "rotation": [0, 180, 0], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "R_Leg",
+					"parent": "Upper",
+					"pivot": [-6.5, 16, 0],
+					"rotation": [17.5, 0, 0],
+					"cubes": [
+						{"origin": [-9, 11, -4.5], "size": [5, 7, 6.5], "uv": [56, 74]}
+					]
+				},
+				{
+					"name": "R_Shin",
+					"parent": "R_Leg",
+					"pivot": [-6.5, 16.7223, 1.80423],
+					"rotation": [-15, 0, 0],
+					"cubes": [
+						{"origin": [-8, -0.13547, 0.10287], "size": [3, 13, 4], "pivot": [-6.5, 16.7223, 1.30423], "rotation": [-15, 0, 0], "uv": [78, 74]}
+					]
+				},
+				{
+					"name": "R_Foot",
+					"parent": "R_Shin",
+					"pivot": [-6.5, 2.7223, -0.19577],
+					"rotation": [-2.5, 0, 0],
+					"cubes": [
+						{"origin": [-9.23828, -0.28911, -6.45723], "size": [6, 3, 8], "uv": [0, 66]}
+					]
+				},
+				{
+					"name": "L_Leg",
+					"parent": "Upper",
+					"pivot": [6.5, 16, 0],
+					"rotation": [17.5, 0, 0],
+					"cubes": [
+						{"origin": [4, 11, -4.5], "size": [5, 7, 6.5], "uv": [0, 77]}
+					]
+				},
+				{
+					"name": "L_Shin",
+					"parent": "L_Leg",
+					"pivot": [6.5, 16.7223, 1.80423],
+					"rotation": [-15, 0, 0],
+					"cubes": [
+						{"origin": [5, -0.13547, 0.10287], "size": [3, 13, 4], "pivot": [-6.5, 16.7223, 1.30423], "rotation": [-15, 0, 0], "uv": [80, 56]}
+					]
+				},
+				{
+					"name": "L_Foot",
+					"parent": "L_Shin",
+					"pivot": [6, 2.7223, -0.19577],
+					"cubes": [
+						{"origin": [3.5, -0.2777, -6.19577], "size": [6, 3, 8], "pivot": [6.5, 8.7223, 0.80423], "rotation": [-2.5, 0, 0], "uv": [28, 74]}
+					]
+				}
+			]
+		}
+	]
+}

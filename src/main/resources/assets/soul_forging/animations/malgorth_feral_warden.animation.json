@@ -1,0 +1,564 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.MalgorthFeralWarden.run": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"Upper": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0],
+							"easing": "linear"
+						},
+						"0.2083": {
+							"vector": [-2.5, 0, 0],
+							"easing": "linear"
+						},
+						"0.4583": {
+							"vector": [0, 0, 0],
+							"easing": "linear"
+						}
+					}
+				},
+				"L_Arm": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0],
+							"easing": "linear"
+						},
+						"0.2083": {
+							"vector": [17.5, 0, 0],
+							"easing": "linear"
+						},
+						"0.5833": {
+							"vector": [-20, 0, 0],
+							"easing": "linear"
+						},
+						"0.9583": {
+							"vector": [0, 0, 0],
+							"easing": "linear"
+						}
+					}
+				},
+				"R_Arm": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0],
+							"easing": "linear"
+						},
+						"0.2083": {
+							"vector": [15, 0, 0],
+							"easing": "linear"
+						},
+						"0.5833": {
+							"vector": [-20, 0, 0],
+							"easing": "linear"
+						},
+						"0.9583": {
+							"vector": [0, 0, 0],
+							"easing": "linear"
+						}
+					}
+				},
+				"Head": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0],
+							"easing": "linear"
+						},
+						"0.2083": {
+							"vector": [2.5, 0, 0],
+							"easing": "linear"
+						},
+						"0.5833": {
+							"vector": [-2.5, 0, 0],
+							"easing": "linear"
+						},
+						"0.9583": {
+							"vector": [0, 0, 0],
+							"easing": "linear"
+						}
+					}
+				},
+				"L_Leg": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0],
+							"easing": "linear"
+						},
+						"0.2917": {
+							"vector": [7.5, 0, 0],
+							"easing": "linear"
+						},
+						"0.625": {
+							"vector": [-12.5, 0, 0],
+							"easing": "linear"
+						},
+						"0.9583": {
+							"vector": [0, 0, 0],
+							"easing": "linear"
+						}
+					}
+				},
+				"R_Leg": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0],
+							"easing": "linear"
+						},
+						"0.2917": {
+							"vector": [-15, 0, 0],
+							"easing": "linear"
+						},
+						"0.625": {
+							"vector": [7.5, 0, 0],
+							"easing": "linear"
+						},
+						"0.9583": {
+							"vector": [0, 0, 0],
+							"easing": "linear"
+						}
+					}
+				},
+				"L_Wing": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0],
+							"easing": "linear"
+						},
+						"0.2083": {
+							"vector": [-7.5, 0, 0],
+							"easing": "linear"
+						},
+						"0.5833": {
+							"vector": [4.99527, 0.21782, -2.4905],
+							"easing": "linear"
+						},
+						"0.9583": {
+							"vector": [0, 0, 0],
+							"easing": "linear"
+						}
+					}
+				},
+				"R_Wing": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0],
+							"easing": "linear"
+						},
+						"0.2083": {
+							"vector": [-7.5, 0, 0],
+							"easing": "linear"
+						},
+						"0.5833": {
+							"vector": [7.5, 0, 0],
+							"easing": "linear"
+						},
+						"0.9583": {
+							"vector": [0, 0, 0],
+							"easing": "linear"
+						}
+					}
+				}
+			}
+		},
+		"animation.MalgorthFeralWarden.slam": {
+			"animation_length": 1.2917,
+			"bones": {
+				"Malgorth": {
+					"position": {
+						"0.0": {
+							"vector": [0, 0, 0],
+							"easing": "linear"
+						},
+						"0.4167": {
+							"vector": [0, 30, 0],
+							"easing": "easeInOutBack",
+							"easingArgs": []
+						},
+						"1.0": {
+							"vector": [0, 0, 0],
+							"easing": "linear"
+						},
+						"1.2917": {
+							"vector": [0, 0, 0],
+							"easing": "linear"
+						}
+					}
+				},
+				"Upper": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0],
+							"easing": "linear"
+						},
+						"0.6667": {
+							"vector": [7.5, 0, 0],
+							"easing": "linear"
+						},
+						"1.0": {
+							"vector": [32.5, 0, 0],
+							"easing": "linear"
+						},
+						"1.2917": {
+							"vector": [0, 0, 0],
+							"easing": "linear"
+						}
+					},
+					"position": {
+						"0.0": {
+							"vector": [0, 0, 0],
+							"easing": "linear"
+						},
+						"0.8333": {
+							"vector": [0, -4, 0],
+							"easing": "easeInCirc"
+						},
+						"1.2917": {
+							"vector": [0, 0, 0],
+							"easing": "linear"
+						}
+					}
+				},
+				"L_Arm": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0],
+							"easing": "linear"
+						},
+						"0.2083": {
+							"vector": [-27.5, 0, 0],
+							"easing": "linear"
+						},
+						"0.4167": {
+							"vector": [-167.5, 0, 0],
+							"easing": "linear"
+						},
+						"0.6667": {
+							"vector": [-107.5, 0, 0],
+							"easing": "linear"
+						},
+						"0.9167": {
+							"vector": [-40, 0, 0],
+							"easing": "linear"
+						},
+						"1.0": {
+							"vector": [-40, 0, 0],
+							"easing": "linear"
+						},
+						"1.2917": {
+							"vector": [0, 0, 0],
+							"easing": "linear"
+						}
+					}
+				},
+				"R_Arm": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0],
+							"easing": "linear"
+						},
+						"0.2083": {
+							"vector": [-40, 0, 0],
+							"easing": "linear"
+						},
+						"0.4167": {
+							"vector": [-167.5, 0, 0],
+							"easing": "linear"
+						},
+						"0.6667": {
+							"vector": [-127.5, 0, 0],
+							"easing": "linear"
+						},
+						"0.9167": {
+							"vector": [-52.5, 0, 0],
+							"easing": "linear"
+						},
+						"1.0": {
+							"vector": [-52.5, 0, 0],
+							"easing": "linear"
+						},
+						"1.2917": {
+							"vector": [0, 0, 0],
+							"easing": "linear"
+						}
+					}
+				},
+				"L_Wing": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0],
+							"easing": "linear"
+						},
+						"0.4167": {
+							"vector": [3.65023, 7.50398, 42.44751],
+							"easing": "easeInOutBack",
+							"easingArgs": []
+						},
+						"0.875": {
+							"vector": [3.70628, -12.45566, 41.16972],
+							"easing": "linear"
+						},
+						"1.0": {
+							"vector": [0, 0, 0],
+							"easing": "linear"
+						},
+						"1.2917": {
+							"vector": [0, 0, 0],
+							"easing": "linear"
+						}
+					}
+				},
+				"R_Wing": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0],
+							"easing": "linear"
+						},
+						"0.4167": {
+							"vector": [4.29016, -5.42173, -50.50517],
+							"easing": "easeInOutBack",
+							"easingArgs": []
+						},
+						"0.875": {
+							"vector": [4.05626, 16.96501, -52.78647],
+							"easing": "linear"
+						},
+						"1.0": {
+							"vector": [0, 0, 0],
+							"easing": "linear"
+						},
+						"1.2917": {
+							"vector": [0, 0, 0],
+							"easing": "linear"
+						}
+					}
+				}
+			}
+		},
+		"animation.MalgorthFeralWarden.Swing": {
+			"animation_length": 0.875,
+			"bones": {
+				"Upper": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0],
+							"easing": "linear"
+						},
+						"0.2083": {
+							"vector": [7.74133, 17.43127, 1.5741],
+							"easing": "linear"
+						},
+						"0.3333": {
+							"vector": [5.64271, 24.85958, 2.68442],
+							"easing": "linear"
+						},
+						"0.4583": {
+							"vector": [1.43862, 37.29102, 4.21726],
+							"easing": "linear"
+						},
+						"0.5417": {
+							"vector": [13.64575, -2.69974, 3.29156],
+							"easing": "linear"
+						},
+						"0.5833": {
+							"vector": [17.2349, -22.10211, -1.70457],
+							"easing": "linear"
+						},
+						"0.625": {
+							"vector": [19.92342, -36.33247, -7.16691],
+							"easing": "linear"
+						},
+						"0.7083": {
+							"vector": [24.92342, -36.33247, -7.16691],
+							"easing": "linear"
+						},
+						"0.875": {
+							"vector": [0, 0, 0],
+							"easing": "linear"
+						}
+					}
+				},
+				"L_Arm": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0],
+							"easing": "linear"
+						},
+						"0.2083": {
+							"vector": [-7.5, 0, 0],
+							"easing": "linear"
+						},
+						"0.3333": {
+							"vector": [-7.49294, -0.32621, -2.47864],
+							"easing": "linear"
+						},
+						"0.4583": {
+							"vector": [2.56344, -0.9762, -7.43656],
+							"easing": "linear"
+						},
+						"0.5833": {
+							"vector": [27.56344, -0.9762, -7.43656],
+							"easing": "linear"
+						},
+						"0.875": {
+							"vector": [0, 0, 0],
+							"easing": "linear"
+						}
+					}
+				},
+				"R_Arm": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0],
+							"easing": "linear"
+						},
+						"0.2083": {
+							"vector": [-14.84045, 46.19571, 54.84045],
+							"easing": "linear"
+						},
+						"0.4583": {
+							"vector": [-5.84639, 44.09318, 73.72002],
+							"easing": "linear"
+						},
+						"0.5833": {
+							"vector": [-72.79749, 13.16556, 5.91088],
+							"easing": "linear"
+						},
+						"0.625": {
+							"vector": [-72.38268, -17.91932, -3.70301],
+							"easing": "linear"
+						},
+						"0.7083": {
+							"vector": [-69.5522, -34.48127, -10.04187],
+							"easing": "linear"
+						},
+						"0.875": {
+							"vector": [0, 0, 0],
+							"easing": "linear"
+						}
+					}
+				},
+				"Head": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0],
+							"easing": "linear"
+						},
+						"0.2083": {
+							"vector": [-7.5, -12.5, 0],
+							"easing": "linear"
+						},
+						"0.3333": {
+							"vector": [-10.23486, -17.42236, 0.90887],
+							"easing": "linear"
+						},
+						"0.4583": {
+							"vector": [-17.73486, -17.42236, 0.90887],
+							"easing": "linear"
+						},
+						"0.5417": {
+							"vector": [-16.89747, -0.7036, -4.34712],
+							"easing": "linear"
+						},
+						"0.5833": {
+							"vector": [-14.90168, 13.63671, -8.78685],
+							"easing": "linear"
+						},
+						"0.625": {
+							"vector": [-17.82075, 35.2543, -15.70861],
+							"easing": "linear"
+						},
+						"0.7083": {
+							"vector": [-12.82075, 35.2543, -15.70861],
+							"easing": "linear"
+						},
+						"0.875": {
+							"vector": [0, 0, 0],
+							"easing": "linear"
+						}
+					}
+				}
+			}
+		},
+		"animation.MalgorthFeralWarden.idle": {
+			"loop": true,
+			"animation_length": 1.875,
+			"bones": {
+				"L_Arm": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.7917": {
+							"vector": [10, 0, 0]
+						},
+						"1.3333": {
+							"vector": [-9, 0, 0]
+						},
+						"1.8333": {
+							"vector": [0, 0, 0]
+						}
+					}
+				},
+				"R_Arm": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.7917": {
+							"vector": [-12.5, 0, 0]
+						},
+						"1.3333": {
+							"vector": [7.9, 0, 0]
+						},
+						"1.8333": {
+							"vector": [0, 0, 0]
+						}
+					}
+				},
+				"Head": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.6667": {
+							"vector": [-2.5, 0, 0]
+						},
+						"1.8333": {
+							"vector": [0, 0, 0]
+						}
+					}
+				},
+				"L_Wing": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.7917": {
+							"vector": [0, 0, -12.5]
+						},
+						"1.8333": {
+							"vector": [0, 0, 0]
+						}
+					}
+				},
+				"R_Wing": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.7917": {
+							"vector": [0, 0, 7.5]
+						},
+						"1.8333": {
+							"vector": [0, 0, 0]
+						}
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

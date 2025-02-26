@@ -1,0 +1,495 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.ArcanisIronwing.walk": {
+			"loop": true,
+			"animation_length": 1.0417,
+			"bones": {
+				"R_Wing": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0],
+							"easing": "linear"
+						},
+						"0.2083": {
+							"vector": [0.65094, -39.69103, -6.05086],
+							"easing": "linear"
+						},
+						"0.4583": {
+							"vector": [0.59595, 32.80574, -5.31224],
+							"easing": "linear"
+						},
+						"0.75": {
+							"vector": [0.65094, -39.69103, -6.05086],
+							"easing": "linear"
+						},
+						"1.0417": {
+							"vector": [0, 0, 0],
+							"easing": "linear"
+						}
+					}
+				},
+				"L_Wing": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0],
+							"easing": "linear"
+						},
+						"0.2083": {
+							"vector": [-20, -12.5, 0],
+							"easing": "linear"
+						},
+						"0.4583": {
+							"vector": [-21.634, 25.08123, -14.04798],
+							"easing": "linear"
+						},
+						"0.75": {
+							"vector": [-20, -12.5, 0],
+							"easing": "linear"
+						},
+						"1.0417": {
+							"vector": [0, 0, 0],
+							"easing": "linear"
+						}
+					}
+				},
+				"R_Leg": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0],
+							"easing": "linear"
+						},
+						"0.2083": {
+							"vector": [30.83, 0, 0],
+							"easing": "linear"
+						},
+						"0.4583": {
+							"vector": [-27.5, 0, 0],
+							"easing": "linear"
+						},
+						"0.75": {
+							"vector": [35, 0, 0],
+							"easing": "linear"
+						},
+						"1.0417": {
+							"vector": [0, 0, 0],
+							"easing": "linear"
+						}
+					}
+				},
+				"R_Foot": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0],
+							"easing": "linear"
+						},
+						"0.2083": {
+							"vector": [-10, 0, 0],
+							"easing": "linear"
+						},
+						"0.75": {
+							"vector": [-20.44, 0, 0],
+							"easing": "linear"
+						},
+						"1.0417": {
+							"vector": [0, 0, 0],
+							"easing": "linear"
+						}
+					}
+				},
+				"L_Leg": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0],
+							"easing": "linear"
+						},
+						"0.2083": {
+							"vector": [-27.5, 0, 0],
+							"easing": "linear"
+						},
+						"0.4583": {
+							"vector": [37.5, 0, 0],
+							"easing": "linear"
+						},
+						"0.75": {
+							"vector": [-27.5, 0, 0],
+							"easing": "linear"
+						},
+						"1.0417": {
+							"vector": [0, 0, 0],
+							"easing": "linear"
+						}
+					}
+				},
+				"L_Foot": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0],
+							"easing": "linear"
+						},
+						"0.4583": {
+							"vector": [-5, 0, 0],
+							"easing": "linear"
+						},
+						"1.0417": {
+							"vector": [0, 0, 0],
+							"easing": "linear"
+						}
+					}
+				}
+			}
+		},
+		"animation.ArcanisIronwing.attack1": {
+			"animation_length": 0.9583,
+			"bones": {
+				"R_Wing": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0],
+							"easing": "linear"
+						},
+						"0.1667": {
+							"vector": [-5.00238, -44.94549, -3.53329],
+							"easing": "linear"
+						},
+						"0.4583": {
+							"vector": [7.4857, -44.67192, -21.18289],
+							"easing": "linear"
+						},
+						"0.5833": {
+							"vector": [-44.91712, -5.3159, 74.09507],
+							"easing": "linear"
+						},
+						"0.7917": {
+							"vector": [-42.3509, 17.43411, 97.59809],
+							"easing": "linear"
+						},
+						"0.9583": {
+							"vector": [0, 0, 0],
+							"easing": "linear"
+						}
+					}
+				},
+				"L_Wing": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0],
+							"easing": "linear"
+						},
+						"0.1667": {
+							"vector": [-50, 0, -55],
+							"easing": "linear"
+						},
+						"0.4583": {
+							"vector": [-39.6137, -4.90013, -61.66959],
+							"easing": "linear"
+						},
+						"0.5833": {
+							"vector": [-8.84179, 49.41933, 23.42505],
+							"easing": "linear"
+						},
+						"0.7917": {
+							"vector": [17.1423, 47.72648, 57.62906],
+							"easing": "linear"
+						},
+						"0.9583": {
+							"vector": [0, 0, 0],
+							"easing": "linear"
+						}
+					}
+				},
+				"R_Leg": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0],
+							"easing": "linear"
+						},
+						"0.4583": {
+							"vector": [0, 27.5, 0],
+							"easing": "linear"
+						},
+						"0.5833": {
+							"vector": [0, 15, 0],
+							"easing": "linear"
+						},
+						"0.9583": {
+							"vector": [0, 0, 0],
+							"easing": "linear"
+						}
+					}
+				},
+				"R_Shin": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0],
+							"easing": "linear"
+						},
+						"0.1667": {
+							"vector": [0, 27.5, 0],
+							"easing": "linear"
+						},
+						"0.5833": {
+							"vector": [0, 0, 0],
+							"easing": "linear"
+						}
+					}
+				},
+				"R_Foot": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0],
+							"easing": "linear"
+						},
+						"0.4583": {
+							"vector": [0, 0, -7.5],
+							"easing": "linear"
+						},
+						"0.5833": {
+							"vector": [0, 0, 2.5],
+							"easing": "linear"
+						}
+					}
+				},
+				"L_Leg": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0],
+							"easing": "linear"
+						},
+						"0.1667": {
+							"vector": [10, 15, 0],
+							"easing": "linear"
+						},
+						"0.4583": {
+							"vector": [9.15051, 6.09098, -4.62518],
+							"easing": "linear"
+						},
+						"0.9583": {
+							"vector": [0, 0, 0],
+							"easing": "linear"
+						}
+					}
+				},
+				"Head": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0],
+							"easing": "linear"
+						},
+						"0.1667": {
+							"vector": [5, 27.5, 0],
+							"easing": "linear"
+						},
+						"0.4583": {
+							"vector": [6.26768, 44.91782, 2.12106],
+							"easing": "linear"
+						},
+						"0.5833": {
+							"vector": [4.71984, 20.02687, -0.69377],
+							"easing": "linear"
+						},
+						"0.7917": {
+							"vector": [4.43386, 0.0893, -2.30644],
+							"easing": "linear"
+						}
+					}
+				},
+				"Upper": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0],
+							"easing": "linear"
+						},
+						"0.1667": {
+							"vector": [0, -30, 0],
+							"easing": "linear"
+						},
+						"0.4583": {
+							"vector": [0, -62.5, 0],
+							"easing": "linear"
+						},
+						"0.5833": {
+							"vector": [0, -25, 0],
+							"easing": "linear"
+						},
+						"0.7917": {
+							"vector": [0, 2.5, 0],
+							"easing": "linear"
+						},
+						"0.9583": {
+							"vector": [0, 0, 0],
+							"easing": "linear"
+						}
+					}
+				}
+			}
+		},
+		"animation.ArcanisIronwing.attack2": {
+			"animation_length": 0.8333,
+			"bones": {
+				"R_Wing": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0],
+							"easing": "linear"
+						},
+						"0.4583": {
+							"vector": [-37.05267, 30.69497, 67.95434],
+							"easing": "linear"
+						},
+						"0.625": {
+							"vector": [-25.6523, -70.45841, -24.13263],
+							"easing": "linear"
+						},
+						"0.8333": {
+							"vector": [0, 0, 0],
+							"easing": "linear"
+						}
+					}
+				},
+				"L_Wing": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0],
+							"easing": "linear"
+						},
+						"0.0833": {
+							"vector": [19.19802, 50.83817, 31.01875],
+							"easing": "linear"
+						},
+						"0.4583": {
+							"vector": [31.81269, 48.70257, 50.54249],
+							"easing": "linear"
+						},
+						"0.625": {
+							"vector": [-53.72124, -18.59492, -92.17677],
+							"easing": "linear"
+						},
+						"0.8333": {
+							"vector": [0, 0, 0],
+							"easing": "linear"
+						}
+					}
+				},
+				"R_Leg": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0],
+							"easing": "linear"
+						},
+						"0.4583": {
+							"vector": [0, 15, 0],
+							"easing": "linear"
+						},
+						"0.8333": {
+							"vector": [0, 0, 0],
+							"easing": "linear"
+						}
+					}
+				},
+				"L_Leg": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0],
+							"easing": "linear"
+						},
+						"0.4583": {
+							"vector": [0, -35, 0],
+							"easing": "linear"
+						},
+						"0.8333": {
+							"vector": [0, 0, 0],
+							"easing": "linear"
+						}
+					}
+				},
+				"Head": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0],
+							"easing": "linear"
+						},
+						"0.4583": {
+							"vector": [0, -42.5, 0],
+							"easing": "linear"
+						},
+						"0.625": {
+							"vector": [0, 20, 0],
+							"easing": "linear"
+						},
+						"0.8333": {
+							"vector": [0, 0, 0],
+							"easing": "linear"
+						}
+					}
+				},
+				"Upper": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0],
+							"easing": "linear"
+						},
+						"0.4583": {
+							"vector": [0, 55, 0],
+							"easing": "linear"
+						},
+						"0.625": {
+							"vector": [0, -10, 0],
+							"easing": "linear"
+						},
+						"0.8333": {
+							"vector": [0, 0, 0],
+							"easing": "linear"
+						}
+					}
+				}
+			}
+		},
+		"animation.ArcanisIronwing.idle": {
+			"loop": true,
+			"animation_length": 2,
+			"bones": {
+				"Head": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.8333": {
+							"vector": [0, 0, -10]
+						},
+						"2.0": {
+							"vector": [0, 0, 0]
+						}
+					}
+				},
+				"L_Wing": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"1.0": {
+							"vector": [-17.5, 0, -10]
+						},
+						"2.0": {
+							"vector": [0, 0, 0]
+						}
+					}
+				},
+				"R_Wing": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"1.0": {
+							"vector": [-7.5, -5, 10]
+						},
+						"2.0": {
+							"vector": [0, 0, 0]
+						}
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

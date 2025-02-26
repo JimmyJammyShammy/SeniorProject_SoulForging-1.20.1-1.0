@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {"item": "soul_forging:passive_soul"},
+    {"item": "minecraft:nether_wart"}
+  ],
+
+  "result": {
+    "item": "soul_forging:tainted_passive_soul"
+  }
+}

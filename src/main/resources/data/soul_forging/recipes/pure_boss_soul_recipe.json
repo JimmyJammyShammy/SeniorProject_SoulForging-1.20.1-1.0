@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {"item": "soul_forging:boss_soul"},
+    {"item": "minecraft:water_bucket"}
+  ],
+
+  "result": {
+    "item": "soul_forging:pure_boss_soul"
+  }
+}

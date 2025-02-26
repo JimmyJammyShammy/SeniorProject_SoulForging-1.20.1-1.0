@@ -1,0 +1,374 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.WrathboundBerserker.run": {
+			"loop": true,
+			"animation_length": 0.5417,
+			"bones": {
+				"L_Leg": {
+					"rotation": {
+						"0.0": {
+							"vector": [-15, 0, 0],
+							"easing": "linear"
+						},
+						"0.1667": {
+							"vector": [37.5, 0, 0],
+							"easing": "linear"
+						},
+						"0.5417": {
+							"vector": [-30, 0, 0],
+							"easing": "linear"
+						}
+					}
+				},
+				"R_Leg": {
+					"rotation": {
+						"0.0": {
+							"vector": [30, 0, 0],
+							"easing": "linear"
+						},
+						"0.1667": {
+							"vector": [-35, 0, 0],
+							"easing": "linear"
+						},
+						"0.5417": {
+							"vector": [52.5, 0, 0],
+							"easing": "linear"
+						}
+					}
+				},
+				"Torso": {
+					"rotation": {
+						"0.0": {
+							"vector": [15, 0, 0],
+							"easing": "linear"
+						},
+						"0.1667": {
+							"vector": [17.5, 0, 0],
+							"easing": "linear"
+						},
+						"0.2917": {
+							"vector": [26.67, 0, 0],
+							"easing": "linear"
+						},
+						"0.5417": {
+							"vector": [15, 0, 0],
+							"easing": "linear"
+						}
+					}
+				},
+				"Head": {
+					"rotation": {
+						"0.0": {
+							"vector": [-7.5, 0, 0],
+							"easing": "linear"
+						},
+						"0.1667": {
+							"vector": [-12.5, 0, 0],
+							"easing": "linear"
+						},
+						"0.4167": {
+							"vector": [-16.67, 0, 0],
+							"easing": "linear"
+						},
+						"0.5417": {
+							"vector": [-7.5, 0, 0],
+							"easing": "linear"
+						}
+					}
+				},
+				"L_Arm": {
+					"rotation": {
+						"0.0": {
+							"vector": [-75, 0, 0],
+							"easing": "linear"
+						},
+						"0.2917": {
+							"vector": [47.5, 0, 0],
+							"easing": "linear"
+						},
+						"0.5417": {
+							"vector": [-75, 0, 0],
+							"easing": "linear"
+						}
+					}
+				},
+				"R_Arm": {
+					"rotation": {
+						"0.0": {
+							"vector": [52.5, 0, 0],
+							"easing": "linear"
+						},
+						"0.2917": {
+							"vector": [-70, 0, 0],
+							"easing": "linear"
+						},
+						"0.5417": {
+							"vector": [52.5, 0, 0],
+							"easing": "linear"
+						}
+					}
+				}
+			}
+		},
+		"animation.WrathboundBerserker.punch": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 1,
+			"bones": {
+				"L_Leg": {
+					"rotation": {
+						"0.0": {
+							"vector": [-15, 0, 0],
+							"easing": "linear"
+						},
+						"0.2083": {
+							"vector": [22.5, 0, 0],
+							"easing": "linear"
+						},
+						"0.625": {
+							"vector": [25, 0, 0],
+							"easing": "linear"
+						},
+						"0.875": {
+							"vector": [2.5, 0, 0],
+							"easing": "linear"
+						},
+						"1.0": {
+							"vector": [-30, 0, 0],
+							"easing": "linear"
+						}
+					}
+				},
+				"R_Leg": {
+					"rotation": {
+						"0.0": {
+							"vector": [30, 0, 0],
+							"easing": "linear"
+						},
+						"0.2083": {
+							"vector": [-30, 0, 0],
+							"easing": "linear"
+						},
+						"0.4583": {
+							"vector": [-17.5, 0, 0],
+							"easing": "linear"
+						},
+						"0.625": {
+							"vector": [-12.5, 0, 0],
+							"easing": "linear"
+						},
+						"1.0": {
+							"vector": [52.5, 0, 0],
+							"easing": "linear"
+						}
+					}
+				},
+				"Torso": {
+					"rotation": {
+						"0.0": {
+							"vector": [15, 0, 0],
+							"easing": "linear"
+						},
+						"0.375": {
+							"vector": [17.5, 0, 0],
+							"easing": "linear"
+						},
+						"0.5": {
+							"vector": [18.29388, -16.66577, -5.41615],
+							"easing": "linear"
+						},
+						"0.625": {
+							"vector": [28.84359, -21.40584, -7.09999],
+							"easing": "linear"
+						},
+						"0.7083": {
+							"vector": [41.44204, -26.02471, -9.24835]
+						},
+						"0.75": {
+							"vector": [22.68105, -14.79747, -3.36576],
+							"easing": "linear"
+						},
+						"0.875": {
+							"vector": [15, 0, 0],
+							"easing": "linear"
+						},
+						"1.0": {
+							"vector": [15, 0, 0],
+							"easing": "linear"
+						}
+					}
+				},
+				"Head": {
+					"rotation": {
+						"0.0": {
+							"vector": [-7.5, 0, 0],
+							"easing": "linear"
+						},
+						"0.5": {
+							"vector": [-20.17995, 12.39135, -1.6575],
+							"easing": "linear"
+						},
+						"0.7083": {
+							"vector": [-5.61022, -4.23286, 1.53114]
+						},
+						"0.875": {
+							"vector": [-7.5, 0, 0],
+							"easing": "linear"
+						},
+						"1.0": {
+							"vector": [-7.5, 0, 0],
+							"easing": "linear"
+						}
+					}
+				},
+				"L_Arm": {
+					"rotation": {
+						"0.0": {
+							"vector": [-75, 0, 0],
+							"easing": "linear"
+						},
+						"0.2083": {
+							"vector": [42.39121, -3.37562, 3.69066],
+							"easing": "linear"
+						},
+						"0.875": {
+							"vector": [-75, 0, 0],
+							"easing": "linear"
+						},
+						"1.0": {
+							"vector": [-75, 0, 0],
+							"easing": "linear"
+						}
+					}
+				},
+				"R_Arm": {
+					"rotation": {
+						"0.0": {
+							"vector": [52.5, 0, 0],
+							"easing": "linear"
+						},
+						"0.2083": {
+							"vector": [-52.84154, 18.26883, 13.36473],
+							"easing": "linear"
+						},
+						"0.375": {
+							"vector": [-102.84154, 18.26883, 13.36473],
+							"easing": "linear"
+						},
+						"0.5": {
+							"vector": [-102.18708, -1.26558, 17.72539],
+							"easing": "linear"
+						},
+						"0.5417": {
+							"vector": [-92.19968, -6.26192, 17.9171],
+							"easing": "linear"
+						},
+						"0.625": {
+							"vector": [-78.32114, -18.51708, 15.39091]
+						},
+						"0.8333": {
+							"vector": [-72.19968, -6.26192, 17.9171],
+							"easing": "linear"
+						},
+						"0.9167": {
+							"vector": [52.5, 0, 0],
+							"easing": "linear"
+						},
+						"1.0": {
+							"vector": [52.5, 0, 0],
+							"easing": "linear"
+						}
+					}
+				}
+			}
+		},
+		"animation.WrathboundBerserker.idle": {
+			"loop": true,
+			"animation_length": 1.5,
+			"bones": {
+				"Torso": {
+					"rotation": {
+						"vector": [7.5, 0, 0]
+					}
+				},
+				"Upper": {
+					"rotation": {
+						"0.0": {
+							"vector": [15, 0, 0]
+						},
+						"1.5": {
+							"vector": [15, 0, 0]
+						}
+					},
+					"position": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.7917": {
+							"vector": [0, 0.49572, 0.06526]
+						},
+						"1.5": {
+							"vector": [0, 0, 0]
+						}
+					}
+				},
+				"Head": {
+					"rotation": {
+						"0.0": {
+							"vector": [-20, 0, 0]
+						},
+						"0.8333": {
+							"vector": [-15.33518, -0.80303, 1.57898]
+						},
+						"1.5": {
+							"vector": [-20, 0, 0]
+						}
+					}
+				},
+				"L_Arm": {
+					"rotation": {
+						"0.0": {
+							"vector": [-37.5, 0, 0]
+						},
+						"1.5": {
+							"vector": [-37.5, 0, 0]
+						}
+					},
+					"position": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.9583": {
+							"vector": [0, 0.19834, 0.15219]
+						},
+						"1.5": {
+							"vector": [0, 0, 0]
+						}
+					}
+				},
+				"R_Arm": {
+					"rotation": {
+						"0.0": {
+							"vector": [-40, 0, 0]
+						},
+						"1.5": {
+							"vector": [-40, 0, 0]
+						}
+					},
+					"position": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.7083": {
+							"vector": [0, 0.76604, 0.64279]
+						},
+						"1.5": {
+							"vector": [0, 0, 0]
+						}
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

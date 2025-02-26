@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "   ",
+    "  x",
+    " xx"
+  ],
+  "key": {
+    "x": {
+      "item": "soul_forging:hostile_soul_shard"
+    }
+  },
+  "result": {
+    "item": "soul_forging:hostile_soul"
+  }
+}

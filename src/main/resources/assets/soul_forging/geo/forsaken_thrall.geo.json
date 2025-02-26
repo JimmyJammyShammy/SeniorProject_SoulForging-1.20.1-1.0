@@ -1,0 +1,110 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.unknown",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "Forsaken Thrall",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "Upper",
+					"parent": "Forsaken Thrall",
+					"pivot": [0, 14, 0],
+					"cubes": [
+						{"origin": [-2, 14, -1], "size": [4, 1, 2], "uv": [32, 0]}
+					]
+				},
+				{
+					"name": "Upper Torso",
+					"parent": "Upper",
+					"pivot": [0, 15, 0],
+					"cubes": [
+						{"origin": [-4, 17, -2], "size": [8, 7, 4], "uv": [0, 12]},
+						{"origin": [-3, 15, -1.5], "size": [6, 2, 3], "uv": [0, 23]}
+					]
+				},
+				{
+					"name": "L_Arm",
+					"parent": "Upper Torso",
+					"pivot": [4, 22.5, 0],
+					"cubes": [
+						{"origin": [4, 11.5, -1], "size": [2, 12, 2], "uv": [26, 14]}
+					]
+				},
+				{
+					"name": "R_Arm",
+					"parent": "Upper Torso",
+					"pivot": [-4, 22.5, 0],
+					"cubes": [
+						{"origin": [-6, 11.5, -1], "size": [2, 12, 2], "uv": [0, 28]}
+					]
+				},
+				{
+					"name": "Neck",
+					"parent": "Upper Torso",
+					"pivot": [0, 24, 1],
+					"cubes": [
+						{"origin": [-0.5, 24, 0], "size": [1, 2, 1], "uv": [32, 3]}
+					]
+				},
+				{
+					"name": "Head",
+					"parent": "Neck",
+					"pivot": [0, 24, 1],
+					"cubes": [
+						{"origin": [-3, 26, -3], "size": [6, 6, 6], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "Lower",
+					"parent": "Forsaken Thrall",
+					"pivot": [0, 14, 0],
+					"cubes": [
+						{"origin": [-3, 12, -1], "size": [6, 2, 2], "uv": [26, 28]}
+					]
+				},
+				{
+					"name": "L_Leg",
+					"parent": "Lower",
+					"pivot": [3, 12, 0],
+					"cubes": [
+						{"origin": [2, 0, -1], "size": [2, 12, 2], "uv": [24, 0]}
+					]
+				},
+				{
+					"name": "L_Foot",
+					"parent": "L_Leg",
+					"pivot": [3, 1, 0],
+					"cubes": [
+						{"origin": [2, 0, -3], "size": [2, 1, 2], "uv": [8, 28]}
+					]
+				},
+				{
+					"name": "R_Leg",
+					"parent": "Lower",
+					"pivot": [-3, 11.93199, 0.37902],
+					"cubes": [
+						{"origin": [-4, 0.08042, -0.9763], "size": [2, 12, 2], "uv": [18, 23]}
+					]
+				},
+				{
+					"name": "R_Foot",
+					"parent": "R_Leg",
+					"pivot": [-3, 1.08042, 0.0237],
+					"cubes": [
+						{"origin": [-4, 0.08042, -2.9763], "size": [2, 1, 2], "uv": [8, 31]}
+					]
+				}
+			]
+		}
+	]
+}

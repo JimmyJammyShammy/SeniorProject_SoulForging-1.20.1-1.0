@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "   ",
+    " xx",
+    " xx"
+  ],
+  "key": {
+    "x": {
+      "item": "soul_forging:passive_soul_shard"
+    }
+  },
+  "result": {
+    "item": "soul_forging:passive_soul"
+  }
+}

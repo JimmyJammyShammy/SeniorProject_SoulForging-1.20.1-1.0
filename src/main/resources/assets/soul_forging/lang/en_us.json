@@ -1,0 +1,23 @@
+{
+  "item.soul_forging.passive_soul_shard": "Passive Soul Shard",
+  "item.soul_forging.hostile_soul_shard": "Hostile Soul Shard",
+  "item.soul_forging.passive_soul": "Passive Soul",
+  "item.soul_forging.hostile_soul": "Hostile Soul",
+  "item.soul_forging.boss_soul": "Boss Soul",
+  "item.soul_forging.pure_passive_soul": "Pure Passive Soul",
+  "item.soul_forging.pure_hostile_soul": "Pure Hostile Soul",
+  "item.soul_forging.pure_boss_soul": "Pure Boss Soul",
+  "item.soul_forging.tainted_passive_soul": "Tainted Passive Soul",
+  "item.soul_forging.tainted_hostile_soul": "Tainted Hostile Soul",
+  "item.soul_forging.tainted_boss_soul": "Tainted Boss Soul",
+  "creativetab.soul_forging": "Soul Forging",
+  "entity.soul_forging.embermaw_stalker": "Embermaw Stalker",
+  "entity.soul_forging.fluffkip": "Fluffkip",
+  "entity.soul_forging.thornclaw_ravager": "Thornclaw Ravager",
+  "entity.soul_forging.forsaken_thrall": "Forsaken Thrall",
+  "entity.soul_forging.oathbreaker_knight": "Oathbreaker Knight",
+  "entity.soul_forging.wrathbound_berserker": "Wrathbound Berserker",
+  "entity.soul_forging.malgorth_the_feral_warden": "Malgorth, The Feral Warden",
+  "entity.soul_forging.arcanis_the_ironwing": "Arcanis, The Ironwing",
+  "entity.soul_forging.vorthral_the_endless_hunger": "Vorthral, The Endless Hunger"
+}
